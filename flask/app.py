@@ -8,7 +8,7 @@ from flask_pymongo import PyMongo
 
 app = Flask(__name__ )
 
-app.config["MONGO_URI"] = "link al tuo database"
+app.config["MONGO_URI"] = "link al tuo database" #bisogna anche specificare il nome del database al interno del link 
 
 mongo = PyMongo(app)
 
